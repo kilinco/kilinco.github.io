@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Demacracy: Democracy for Machines
+title: Demacracy - Democracy for Machines
 categories: [blog]
 tags: [decentralized machine learning, decentralized, peer-to-peer]
 excerpt_separator: <!--more-->
