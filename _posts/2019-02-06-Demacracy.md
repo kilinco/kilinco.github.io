@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Demacracy: Democracy for the Machines
+title: Demacracy: Democracy for Machines
 date: "06.02.2019"
 ---
 
