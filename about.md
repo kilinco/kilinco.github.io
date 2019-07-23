@@ -17,3 +17,5 @@ Another interest of mine is sustainability. One low-key project I have at the mo
 ### Contact me
 
 If you are reading this about me section, you might share the same interests as I do. Long story short, if you have a good project in mind or have a question shoot an email -- [osmancihankilinc@gmail.com](mailto:osmancihankilinc@gmail.com)
+
+I also have a [resume]({{ site.baseurl }}{% link Resume.pdf %}) ready for anyone who would like to [review it](https://www.thebalancecareers.com/gone-in-thirty-seconds-how-to-review-a-resume-1919139). 
