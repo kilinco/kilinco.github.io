@@ -6,7 +6,7 @@ tags: [democratizing machine learning, democratization of machine learning, dece
 excerpt_separator: <!--more-->
 ---
 
-It should be clear that this blog post is about democratizing machine intelligence. Ok, this might be a little late compared to all the blog posts that came before it. One thing I can assure you that this is not a blog post that preaches cryptocurrency or blockchain technology. This is also probably not the most scientific article. This is simply my take on the topic - which will probably change in time. I am planning to break it up into several posts, because the topic can be explored from many different perspectives. 
+It should be clear that this blog post is about democratizing machine intelligence. Ok, this might be a little late compared to all the blog posts that came before it. One thing I can assure you that this is not a blog post that preaches cryptocurrency or blockchain technology.<!--more--> This is also probably not the most scientific article. This is simply my take on the topic - which will probably change in time. I am planning to break it up into several posts, because the topic can be explored from many different perspectives. 
 
 Let’s start with the etymology of democracy. Did you know that it comes from Greek? Etymologically the word “democracy” comes from “demos” and “kratos”, “demos” as in “common people” and “kratos” as in “power”. So there is a little [“power to the people”](https://www.youtube.com/watch?v=RtvlBS4PMF0) thing going on in its meaning. What, then, is meant by “democratization of machine learning”  and how can we democratize machine learning? 
 
