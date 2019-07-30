@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Democratizing Machine Learning: Tools and Frameworks
+title: Democratizing Machine Learning - Tools and Frameworks
 categories: [blog]
 tags: [democratizing machine learning, democratization of machine learning, decentralized machine learning, peer-to-peer learning]
 excerpt_separator: <!--more-->
