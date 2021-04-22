@@ -4,7 +4,7 @@ title: Book List
 permalink: /books/
 ---
 
-<table>
+<table class="table table-condensed table-bordered">
   {% for row in site.data.Books %}
     {% if forloop.first %}
     <tr>
