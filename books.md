@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 <table>
-  {% for row in site.data.authors %}
+  {% for row in site.data.Books %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}

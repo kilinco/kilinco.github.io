@@ -1,38 +1,38 @@
-﻿Name,Year,Director,Tags,,Date Watched,Country
-Synchronic,2021,"Justin Benson, Aaron Moorhead",Science Fiction,,17-Apr-21,USA
-Shivers,1975,David Cronenberg,"B-Movie, Horror, Violence",,29-Mar-21,Canada
-Barbarella,1968,Roger Vadim,"B-Movie, Science Fiction, Sexual Liberation",,28-Mar-21,Italy
-Pickpocket,1959,Robert Bresson,"Art House, Essential",,2-Feb-21,France
-Badlands,1973,Terrence Malick,Drama,,31-Jan-21,USA
-Soul,2021,"Pete Docter, Kemp Powers","Animation, Jazz",,29-Jan-21,USA
-Comic Book Confidential,1988,Ron Mann,Documentary,,25-Jan-21,USA
-Color Adjustment,1992,Marlon Riggs,"African American, Documentary",,25-Jan-21,USA
-The New World,2005,Terrence Malick,Drama,,19-Jan-21,USA
-The Foul King,2000,Jee-won Kim,Black Comedy,,3-Jan-21,South Korea
-Barking Dogs Never Bite,2000,Bong Joon Ho,Drama,,29-Dec-20,South Korea
-Sympathy For Mr. Vengeance,2002,Park Chan-wook,"African American, Drama",,27-Dec-20,South Korea
-The Quiet Family,1998,Kim Jee-woon,"Black Comedy, Horror, Thriller",,23-Dec-20,South Korea
-Save the Green Planet,2003,Jang Joon-hwan,"Drama, Genre Fusion, Horror, Violence",,23-Dec-20,South Korea
-The Host,2006,Bong Joon Ho,"Genre Fusion, Monster Movie",,22-Dec-20,South Korea
-Lady Vengeance,2005,Park Chan-wook,Drama,,21-Dec-20,South Korea
-The Velvet Vampire,1971,Stephanie Rothman,B-Movie,,18-Dec-20,USA
-I'm No Longer There,2020,Fernando Frias,"Drama, Indigenous, Political",,16-Dec-20,Mexico
-California Typewriter,2016,Doug Nichol,Documentary,,13-Dec-20,USA
-Nowhere to Hide,1999,Lee Myng-Se,"Crime, Film Noir",,13-Dec-20,South Korea
-Nostalgia for the Light,2010,Patricio Guzman,"Documentary, Political",,9-Dec-20,Chile
-Space is the Place,1974,John Coney,"African American, Experimental, Jazz, Political",,5-Dec-20,USA
-Belle de Jour,1967,Luis Buñuel,"Art House, Essential, Feminist, Femme Fatale, Sexual Liberation",,4-Dec-20,France
-Red Desert,1964,Michelangelo Antonioni,"Art House, Essential",,29-Nov-20,France
-Brief Encounter,1945,David Lean,"Art House, Essential",,26-Nov-20,England
-Fantastic Planets,1973,René Laloux,"Animation, Art House",,25-Nov-20,France
-The Burroughs,1983,Howard Brookner,Documentary,,24-Nov-20,USA
-Invasion of Body Snatchers,1978,Philip Kaufman,"B-Movie, Horror",,20-Nov-20,USA
-Videodrome,1983,David Cronenberg,Horror,,15-Nov-20,Canada
-Village of the Damned,1960,Wolf Rilla,"Art House, Essential",,14-Nov-20,England
-The Blob,1958,Irvin S. Yeaworth Jr.,"B-Movie, Horror",,4-Nov-20,USA
-A Tale of Two Sisters,2003,Kim Jee-woon,Horror,,1-Nov-20,Korea
-The Ornithologist,2016,João Pedro Rodrigues,"Art House, Spirituality",,30-Oct-20,Portugal
-"4 Months, 3 Weeks and 2 Days",2007,Cristian Mungiu,"Eastern European, Political",,22-Oct-20,Romania
-Black Narcissus,1947,Michael Powell and Emeric Pressburger,"Art House, Essential, Spirituality",,8-Oct-20,USA
-The Battle of Algiers,1966,Gillo Pontecorvo,"Art House, Essential",,1-Oct-20,Italy
-Hard Eight,1996,Paul Thomas Anderson,Drama,,18-Apr-21,USA
+﻿Name,Year,Director,Tags,Date,Country
+Synchronic,2021,"Justin Benson, Aaron Moorhead",Science Fiction,17-Apr-21,USA
+Shivers,1975,David Cronenberg,"B-Movie, Horror, Violence",29-Mar-21,Canada
+Barbarella,1968,Roger Vadim,"B-Movie, Science Fiction, Sexual Liberation",28-Mar-21,Italy
+Pickpocket,1959,Robert Bresson,"Art House, Essential",2-Feb-21,France
+Badlands,1973,Terrence Malick,Drama,31-Jan-21,USA
+Soul,2021,"Pete Docter, Kemp Powers","Animation, Jazz",29-Jan-21,USA
+Comic Book Confidential,1988,Ron Mann,Documentary,25-Jan-21,USA
+Color Adjustment,1992,Marlon Riggs,"African American, Documentary",25-Jan-21,USA
+The New World,2005,Terrence Malick,Drama,19-Jan-21,USA
+The Foul King,2000,Jee-won Kim,Black Comedy,3-Jan-21,South Korea
+Barking Dogs Never Bite,2000,Bong Joon Ho,Drama,29-Dec-20,South Korea
+Sympathy For Mr. Vengeance,2002,Park Chan-wook,"African American, Drama",27-Dec-20,South Korea
+The Quiet Family,1998,Kim Jee-woon,"Black Comedy, Horror, Thriller",23-Dec-20,South Korea
+Save the Green Planet,2003,Jang Joon-hwan,"Drama, Genre Fusion, Horror, Violence",23-Dec-20,South Korea
+The Host,2006,Bong Joon Ho,"Genre Fusion, Monster Movie",22-Dec-20,South Korea
+Lady Vengeance,2005,Park Chan-wook,Drama,21-Dec-20,South Korea
+The Velvet Vampire,1971,Stephanie Rothman,B-Movie,18-Dec-20,USA
+I'm No Longer There,2020,Fernando Frias,"Drama, Indigenous, Political",16-Dec-20,Mexico
+California Typewriter,2016,Doug Nichol,Documentary,13-Dec-20,USA
+Nowhere to Hide,1999,Lee Myng-Se,"Crime, Film Noir",13-Dec-20,South Korea
+Nostalgia for the Light,2010,Patricio Guzman,"Documentary, Political",9-Dec-20,Chile
+Space is the Place,1974,John Coney,"African American, Experimental, Jazz, Political",5-Dec-20,USA
+Belle de Jour,1967,Luis Buñuel,"Art House, Essential, Feminist, Femme Fatale, Sexual Liberation",4-Dec-20,France
+Red Desert,1964,Michelangelo Antonioni,"Art House, Essential",29-Nov-20,France
+Brief Encounter,1945,David Lean,"Art House, Essential",26-Nov-20,England
+Fantastic Planets,1973,René Laloux,"Animation, Art House",25-Nov-20,France
+The Burroughs,1983,Howard Brookner,Documentary,24-Nov-20,USA
+Invasion of Body Snatchers,1978,Philip Kaufman,"B-Movie, Horror",20-Nov-20,USA
+Videodrome,1983,David Cronenberg,Horror,15-Nov-20,Canada
+Village of the Damned,1960,Wolf Rilla,"Art House, Essential",14-Nov-20,England
+The Blob,1958,Irvin S. Yeaworth Jr.,"B-Movie, Horror",4-Nov-20,USA
+A Tale of Two Sisters,2003,Kim Jee-woon,Horror,1-Nov-20,Korea
+The Ornithologist,2016,João Pedro Rodrigues,"Art House, Spirituality",30-Oct-20,Portugal
+"4 Months, 3 Weeks and 2 Days",2007,Cristian Mungiu,"Eastern European, Political",22-Oct-20,Romania
+Black Narcissus,1947,Michael Powell and Emeric Pressburger,"Art House, Essential, Spirituality",8-Oct-20,USA
+The Battle of Algiers,1966,Gillo Pontecorvo,"Art House, Essential",1-Oct-20,Italy
+Hard Eight,1996,Paul Thomas Anderson,Drama,18-Apr-21,USA
