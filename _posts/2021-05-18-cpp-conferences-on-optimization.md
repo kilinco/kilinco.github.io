@@ -1,9 +1,8 @@
 ---
 layout: post
-title: C++ Essential Reading List
+title: C++ Conferences - Optimization 
 categories: [blog]
-tags: [C++, reading list]
-excerpt_separator: <!--more-->
+tags: [C++ Optimization, watch list]
 ---
 
 In this age of excess, who really cares about optimization? It turns out some people do actually care about it. 
