@@ -54,13 +54,3 @@ int sum_submatrix(int x_low, int y_low, int x_high, int y_high) {
 You can find the much better thought out and illustrated solution (here)[https://nayan.co/blog/AI/Integral-Image/].
 
 Lastly, it is incredibly important to remember that this algorithm can also be used to retrieve stastics of the submatrices.
-
-Other Blogs
-https://nayan.co/blog/AI/Integral-Image/ \
-https://blog.demofox.org/2018/04/16/prefix-sums-and-summed-area-tables/ \ 
-https://www.ardendertat.com/2011/09/20/programming-interview-questions-2-matrix-region-sum/ \
-
-For More Advanced Use-Cases
-https://www.ifi.uzh.ch/dam/jcr:a3dd9a05-a16d-440c-866f-316eab4b8b4c/Tensor_Decompositions_for_Integral_Histogram_Compression_and_Look-Up.pdf \
-https://arxiv.org/pdf/1907.06154.pdf \ 
-http://hhoppe.com/recursive.pdf \ 
