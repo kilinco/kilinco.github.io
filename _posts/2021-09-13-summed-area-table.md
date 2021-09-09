@@ -51,6 +51,6 @@ int sum_submatrix(int x_low, int y_low, int x_high, int y_high) {
 }
 ```
 
-You can find the much better thought out and illustrated solution (here)[https://nayan.co/blog/AI/Integral-Image/].
+You can find the much better thought out and illustrated solution [here](https://nayan.co/blog/AI/Integral-Image/).
 
 Lastly, it is incredibly important to remember that this algorithm can also be used to retrieve stastics of the submatrices.
