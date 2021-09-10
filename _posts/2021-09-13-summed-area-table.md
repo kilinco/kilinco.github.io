@@ -16,7 +16,7 @@ In order to query the sum of a submatrix, we first need to define it. The submat
 
 Suppose that we can only query this interface for *(x,y)* which then would return the sum of the submatrix defined by *(0,0)* and *(x,y)*. How can we use this method to calculate the submatrix defined by *(x_low,y_low)* and *(x_high,y_high)*? The answer becomes apparent when you draw and visualize the problem...
 
-[Summed Area Table](/_data/summed-area-table-1.gif)
+![Summed Area Table](https://raw.githubusercontent.com/kilinco/kilinco.github.io/master/_data/summed-area-table-1.gif)
 
 ```
 // returns the sum of all elements in submatrix defined by x_low = 0, y_low = 0, x_high = x & y_high = y
