@@ -18,23 +18,24 @@ Suppose that we can only query this interface for *(x,y)* which then would retur
 
 [Summed Area Table](/_data/summed-area-table-1.gif)
 
-```
+{% highlight cpp %}
 // returns the sum of all elements in submatrix defined by x_low = 0, y_low = 0, x_high = x & y_high = y
 int sum_submatrix(int x, int y); 
 
 int sum_submatrix(int x_low, int y_low, int x_high, int y_high) {
     return sum_submatrix(x_high, y_high) - sum_submatrix(x_high, y_low-1) - sum_submatrix(x_low-1, y_high) + sum_submatrix(x_low-1, y_low-1); 
 }
-```
+{% endhighlight %}
+
 Now let's move on to calculating the submatrix sum for submatrices defined by *(0,0)* and *(x,y)*. It is best to simplify the problem and visualize the solution with a 1D array. Suppose that the 1D array below is the first row of _A_ and that we need to calculate all the submatrix sums from *(0,0)* to *(0,4)*.
 
-```
+{% highlight text %}
 [1,5,1,6,8] ---> [1,6,7,13,21]
-```
+{% endhighlight %}
 
 Notice the pattern in the 1D case? It all comes down to calculating the submatrix sum cumulatively. We can generalize this solution to the 2D case as below. Note that we subtract `dp[i-1][j-1]` to prevent it to be counted twice (which is easy to figure when you visualize your solution). 
 
-```
+{% highlight cpp %}
 class SummedAreaTable {
   public:
     SummedAreaTable(const std::vector<std::vector<int>> & A) {
@@ -49,19 +50,19 @@ class SummedAreaTable {
   private:
     std::vector<std::vector<int>> dp;
 }
-```
+{% endhighlight %}
 
 Now let's rewrite `sum_submatrix` using `dp`. This way we can retrieve the sum of all elements in the submatrix in constant time.
 
-```
+{% highlight cpp %}
 int SummedAreaTable::get_submatrix_sum(int x_low, int y_low, int x_high, int y_high) const {
     return dp[x_high+1][y_high+1] - dp[x_high+1][y_low] - dp[x_low][y_high+1] + dp[x_low][y_low];
 }
-```
+{% endhighlight %}
 
 Remember that this algorithm can also be used to retrieve stastics like mean and standard deviations. When you have the sum for the submatrix, it is straightforward to retrieve the mean. You only need to calculate the number of elements in the submatrix.
 
-```
+{% highlight cpp %}
 class SummedAreaTable {
   public:
     SummedAreaTable(const std::vector<std::vector<int>> & A) {
@@ -90,7 +91,7 @@ int SummedAreaTable::get_submatrix_mean(int x_low, int y_low, int x_high, int y_
 int SummedAreaTable::get_num_elements(int x_low, int y_low, int x_high, int y_high) const {
     return (x_high - x_low + 1) * (y_high - y_low + 1);
 }
-```
+{% endhighlight %}
 
 Lastly, you can find the much better illustrated solution [here](https://nayan.co/blog/AI/Integral-Image/). 
 
