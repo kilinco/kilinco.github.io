@@ -74,9 +74,9 @@ class SummedAreaTable {
     }
     
     int get_submatrix_sum(int x_low, int y_low, int x_high, int y_high) const;
-    int get_submatrix_mean(int x_low, int y_low, int x_high, int y_high) const;
-  private:
     int get_num_elements(int x_low, int y_low, int x_high, int y_high) const;
+    double get_submatrix_mean(int x_low, int y_low, int x_high, int y_high) const;
+  private:
     std::vector<std::vector<int>> dp;
 }
 
@@ -84,12 +84,12 @@ int SummedAreaTable::get_submatrix_sum(int x_low, int y_low, int x_high, int y_h
     return dp[x_high+1][y_high+1] - dp[x_high+1][y_low] - dp[x_low][y_high+1] + dp[x_low][y_low];
 }
 
-int SummedAreaTable::get_submatrix_mean(int x_low, int y_low, int x_high, int y_high) const {
-    return (double) get_submatrix_sum(x_low, y_low, x_high, y_high) / get_num_elements(x_low, y_low, x_high, y_high);
-}
-
 int SummedAreaTable::get_num_elements(int x_low, int y_low, int x_high, int y_high) const {
     return (x_high - x_low + 1) * (y_high - y_low + 1);
+}
+    
+double SummedAreaTable::get_submatrix_mean(int x_low, int y_low, int x_high, int y_high) const {
+    return std::static_cast<double>(get_submatrix_sum(x_low, y_low, x_high, y_high)) / get_num_elements(x_low, y_low, x_high, y_high);
 }
 {% endhighlight %}
 
