@@ -11,6 +11,75 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Fonts for Modern Theme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400&family=Fira+Code&display=swap" rel="stylesheet">
+
+    <style>
+      /* Modern Theme Overrides */
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #111111;
+        --link-color: #111111;
+      }
+      body {
+        font-family: 'Figtree', serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      #main h1, #main h2, #main h3, #main h4, .site-name {
+          font-family: 'Figtree', serif;
+      }
+      a { color: var(--text-color); }
+      #main a { transition: opacity 0.2s ease; }
+      #main a:hover { opacity: 0.6; }
+      #main code, #main pre {
+        font-family: 'Fira Code', monospace;
+        background-color: #f5f5f5;
+      }
+      #main pre { padding: 1em; border-radius: 4px; overflow-x: auto; }
+
+      /* Theme Toggle Button */
+      #theme-toggle {
+        background: none;
+        border: 1px solid #ddd;
+        color: #888;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-family: inherit;
+        border-radius: 4px;
+        margin-left: 1rem;
+        vertical-align: middle;
+      }
+
+      /* Retro (1990s) Theme */
+      body.retro-mode {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #C0C0C0;
+        color: #000;
+      }
+      .retro-mode .wrapper-masthead { border-bottom: 2px solid #000; }
+      .retro-mode .masthead { display: block; text-align: left; padding: 1rem 0; }
+      .retro-mode .site-avatar, .retro-mode .footer { display: none; }
+      .retro-mode .site-info { margin-bottom: 1rem; }
+      .retro-mode .site-name a { text-decoration: none; }
+      .retro-mode a { color: #0000EE; text-decoration: underline; opacity: 1; }
+      .retro-mode a:visited { color: #551A8B; }
+      .retro-mode #main code, .retro-mode #main pre {
+        font-family: 'Courier New', Courier, monospace;
+        background: #C0C0C0;
+        border: 1px dotted #000;
+        padding: 0.2em;
+      }
+      .retro-mode #theme-toggle {
+        border: 2px outset #fff;
+        background: #C0C0C0;
+        color: #000;
+      }
+    </style>
   </head>
 
   <body>
@@ -26,6 +95,7 @@
 
           <nav>
             <a href="{{ site.baseurl }}/about">about</a>
+            <button id="theme-toggle">Retro Mode</button>
           </nav>
         </header>
       </div>
@@ -44,5 +114,29 @@
     </div>
 
     {% include analytics.html %}
+    <script>
+      const toggleButton = document.getElementById('theme-toggle');
+      const body = document.body;
+
+      function setRetroMode(isRetro) {
+        if (isRetro) {
+          body.classList.add('retro-mode');
+          localStorage.setItem('theme', 'retro');
+          toggleButton.textContent = 'Modern Mode';
+        } else {
+          body.classList.remove('retro-mode');
+          localStorage.setItem('theme', 'modern');
+          toggleButton.textContent = 'Retro Mode';
+        }
+      }
+
+      toggleButton.addEventListener('click', () => {
+        setRetroMode(!body.classList.contains('retro-mode'));
+      });
+
+      // Apply theme on initial load
+      const savedTheme = localStorage.getItem('theme') === 'retro';
+      setRetroMode(savedTheme);
+    </script>
   </body>
 </html>

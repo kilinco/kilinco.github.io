@@ -4,25 +4,27 @@ title: About
 permalink: /about/
 ---
 
-Wilkommen. Bienvenue. Welcome. 
-I am a software engineer at ASML, supplying semiconductor industry with the brightest light of all times. 
+Wilkommen. Bienvenue. Welcome. I am a software engineer building robust data and logging infrastructure for autonomous vehicles. My work focuses on creating reliable systems that collect, process, and analyze data. I am deeply interested in autonomous systems and the infrastructure that powers them.
 
-I was fresh out of the Machine Learning and Data Science Master's program at UCSD, when I joined ASML. I worked at [ACES Laboratory](http://aceslab.org/) from August 2018 to June 2019, where I focused on decentralized machine learning. I ended up writing my Master's thesis on this topic. When I started this blog, I was waiting for life to start but [the pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic) hit. And I'm still waiting. 
+### Professional Highlights
+*   Built a pipeline for handling process crashes and coredumps.
+*   Developed software to collect and index data from vehicle and operations.
+*   Created diagnostics and tooling to address on-vehicle data storage issues.
+*   Daemonized on-vehicle logging for continuous data capture.
+*   Built metadata processing tools and dashboards for observability.
+*   Built CLIs and GUI sub-components for daily logging operations.
+*   Designed systems for logging operations in remote environments with limited internet access.
+*   Developed the communication interface, hardware abstraction, control logic and diagnostics components for the EUV light source.
 
-Since I mostly love what I do, I've never had a job I hated. I am trying to find something I hate doing. Blogging might be one of them. I shall see. 
-[2021 Update] Blogging turned out to be ok, but persistence is tricky. 
-
-Did I mention that I love machine learning? I had always been interested in nature and science as a kid. In high school, I became subtly interested in consciousness and perception. Then in college I became gradually more interested in machine learning (it wasn't such a hot topic at the time). This interest flowered at UCSD - thankfully, I had found myself at the right place at the right time. These days I am more interested in things like decentralized machine learning, federated learning, continual learning, bayesian neural networks, variational inference, uncertainty and model calibration, explainability... The list goes on, since I find myself fascinated by a lot of new things.
+### Interests
+My professional work is deeply connected to my long-standing interests in machine learning and robotics. I'm fascinated by the entire stack that makes intelligent systems possible, from low-level data collection to computer vision. In the past I have focused on areas such as decentralized and federated learning, continual learning, model calibration and explainability. Today I build scalable infrastructure to support autonomous vehicles. 
 
 ### Other than machine learning
+I hike, read books and watch movies. Here and there I also take online courses to learn things that I am interested in. 
 
-I make music, read books and watch films. Here and there I also take online courses to learn things that I am interested in. 
+Books and movies are an indispensable part of my life. Although they are never up-to-date, you could check out my [Letterboxd](https://boxd.it/7ifyn) and [Goodreads](https://www.goodreads.com/user/show/122558299-osman-cihan-kilinc) accounts, if you want to see what I have been upto. Here is a link to my [Spotify](https://open.spotify.com/user/achillestendon) account as well. I love books where history, economics, finance, statistics and probability are interwoven. Perhaps some day I will write a post on this topic.
 
-Books and films are an indispensable part of my life. You could check out my [IMDb](https://www.imdb.com/user/ur22343877) and [Goodreads](https://www.goodreads.com/user/show/122558299-osman-cihan-kilinc) accounts, if you want to see what I have been upto. Here is a link to my [Spotify](https://open.spotify.com/user/achillestendon) account as well. 
-
-Since 2019, I have been reading a lot of finance-related books from "Intelligent Investor" to "Antifragile". I am always trying to educate myself in finance/investing. I had always been interested in it, but I never actually had the time or money to do anything. 
-
-Lastly, another interest of mine is sustainability. One low-key project I have at the moment is building a vertical farm to grow veggies at home. 
+Fun fact: I used to play bass guitar in an 80s cover band in high school. We mostly played hard-rock.
 
 ### Contact me
 
